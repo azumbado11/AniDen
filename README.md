@@ -1,6 +1,6 @@
 ## Description
 
-Anime and manga database project made with React 19rc
+Anime and manga database project built using React 19 release candidate to showcase the latest features and improvements
 
 ## Setup
 
