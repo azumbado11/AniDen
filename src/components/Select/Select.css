@@ -1,0 +1,28 @@
+.select__container {
+    background-color: var(--dark-color);
+    color: var(--text-color);
+    select {
+      height: 45px;
+      font-size: 1rem;
+      font-weight: 200;
+      max-width: 100%;
+      padding: 8px 24px 8px 10px;
+      border: none;
+      background-color: transparent;
+      &:active,
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+     
+    }
+    select > option{
+        background: var(--dark-color);
+    }
+  }
+
+@media (max-width: 830px) {
+  .select__container select{
+    width: 120px;
+  }    
+}

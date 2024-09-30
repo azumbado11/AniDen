@@ -1,0 +1,15 @@
+.filters__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    height: 45px;
+}
+
+@media (max-width: 835px) {
+    .filters__container{
+        height: fit-content;
+        flex-wrap: wrap;
+        gap: .5em;
+    }    
+}

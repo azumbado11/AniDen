@@ -1,0 +1,89 @@
+.card__container{
+    width: 220px; 
+    height: fit-content;
+    background: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.card__type{
+    position: absolute;
+    z-index: 10;
+    background: var(--secondary-color);
+    margin: .35em;
+    padding: 0.05em .35em;
+    font-size: 14px;
+}
+
+.card__img{
+    position: relative;
+}
+
+.card__info-title{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    background: rgb(16,16,20);
+    background: linear-gradient(0deg, rgba(16,16,20,1) 20%, rgba(16,16,20,0.7175245098039216) 55%, rgba(0,212,255,0) 100%);
+    padding: 0 .45em .45em .45em ;
+    bottom: 0;
+}
+
+.card__info-link{
+    text-decoration: none;
+}
+
+.card__info-link-title{
+    color: var(--text-color);
+    &:hover{
+        color: var(--card-hover-color);
+    }
+}
+
+.card__info-title p{
+    color: var(--grey-text-color);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card__info{
+    display: flex;
+    height: fit-content;
+    padding: .5em .675em;
+    gap: .15em;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid var(--primary-color);
+    color: var(--grey-text-color);
+}
+
+.card__info-rating{
+    display: flex;
+    align-items: center;
+    gap: .3em;
+}
+
+.img{
+    width: 100%;
+    height: 300px;
+}
+
+.manga, .tv{
+    background: var(--manga-type-color);
+}
+.novel, .movie{
+    background: var(--novel-type-color);
+}
+.lightnovel, .ova{
+    background: var(--lightnovel-type-color);
+}
+.one-shot, .special{
+    background: var(--oneshot-type-color);
+}
+.manhwa, .ona{
+    background: var(--manhwa-type-color);
+}
+.manhua, .music{
+    background: var(--manhua-type-color);
+}

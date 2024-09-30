@@ -1,0 +1,46 @@
+:root {
+  --background-color: #101014;
+  --text-color: #ececed;
+  --primary-color: #a9a9c4;
+  --secondary-color: #393963;
+  --accent-color: #7273ba; 
+  --dark-color: #17171b;
+  --grey-text-color: #b6b6b6;
+  --disable-color: #20202040;
+  --disable-text-color: #666666;
+  --manga-type-color: #393963;
+  --novel-type-color: #633939;
+  --lightnovel-type-color: #636339;
+  --oneshot-type-color: #396339;
+  --manhwa-type-color: #5b3963;
+  --manhua-type-color: #3f6f75;
+  --card-hover-color: #e2cb47;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 0;
+  line-height: 1.5;
+}
+
+html{ 
+  scroll-behavior: smooth;
+  scrollbar-width: auto;
+  scrollbar-color: var(--secondary-color) var(--dark-color);
+}
+
+body{
+  font-family: "Noto Sans JP", sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+  min-height: 100dvh;
+}
+
+h1,h2,h3,h4{
+  text-wrap: balance;
+}
+
+p{
+  text-wrap: pretty;
+}

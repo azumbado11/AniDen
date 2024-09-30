@@ -1,0 +1,10 @@
+export { default as Card } from "./Card/Card";
+export { default as Catalog } from "./Catalog/Catalog";
+export { default as Controls } from "./Controls/Controls";
+export { default as Filters } from "./Filters/Filters";
+export { default as Footer } from "./Footer/Footer";
+export { default as Loader } from "./Loader/Loader";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Search } from "./Search/Search";
+export { default as Select } from "./Select/Select";
+export { default as Switch } from "./Switch/Switch";

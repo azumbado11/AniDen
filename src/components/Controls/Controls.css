@@ -1,0 +1,31 @@
+.controls__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 1.5em;
+}
+
+.controls__btn{
+    border: none;
+    background: var(--dark-color);
+    color: var(--text-color);
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    padding: .5em;
+    border-radius: 50%;
+    &:hover{
+        color: var(--grey-text-color);
+    }
+    &:disabled{
+        background: var(--disable-color);
+        color: var(--disable-text-color);
+    }
+}
+
+@media (max-width: 360px) {
+    .controls__container{
+      gap: 3em;
+    }    
+}

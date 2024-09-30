@@ -1,0 +1,26 @@
+.loader-grid__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.loader-card__container{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.loader__img{
+    width: 100%;
+    height: 329px;
+    background: var(--dark-color);
+}
+.loader__info{
+    width: 100%;
+    height: 39px;
+    background: var(--dark-color);
+}

@@ -1,0 +1,18 @@
+.header__container{
+    display: flex;
+    padding: 1.5em 3em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo__container{
+    display: flex;
+    align-items: center;
+    gap: .25em;
+}
+
+@media (max-width: 500px) {
+    .header__container{
+      padding: 1.5em;
+    }    
+}
